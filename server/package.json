@@ -1,10 +1,15 @@
 {
   "name": "drigonchat-server",
   "version": "1.0.0",
+  "type": "module",
   "description": "",
-  "scripts": {},
+  "scripts": {
+    "build": "",
+    "dev": "node dev.js"
+  },
   "author": "Altie122",
   "dependencies": {
     "socket.io": "^4.8.1"
-  }
+  },
+  "packageManager": "pnpm@9.9.0"
 }

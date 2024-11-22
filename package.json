@@ -3,6 +3,15 @@
   "version": "1.0.0",
   "description": "",
   "scripts": {
+    "install:all": "node install.js client server",
+    "install:client": "node install.js client",
+    "install:server": "node install.js server",
+    "build:all": "node build.js client server",
+    "build:client": "node build.js client",
+    "build:server": "node build.js server",
+    "dev:all": "node dev.js client server",
+    "dev:client": "node dev.js client",
+    "dev:server": "node dev.js server"
   },
   "author": "Altie122"
 }
