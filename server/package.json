@@ -1,0 +1,10 @@
+{
+  "name": "drigonchat-server",
+  "version": "1.0.0",
+  "description": "",
+  "scripts": {},
+  "author": "Altie122",
+  "dependencies": {
+    "socket.io": "^4.8.1"
+  }
+}
