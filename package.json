@@ -3,9 +3,10 @@
   "version": "1.0.0",
   "description": "",
   "scripts": {
-    "install:all": "node install.js client server",
-    "install:client": "node install.js client",
-    "install:server": "node install.js server",
+    "install:all": "node install.js client server .",
+    "install:client": "node install.js client .",
+    "install:server": "node install.js server .",
+    "install:root": "node install.js .",
     "build:all": "node build.js client server",
     "build:client": "node build.js client",
     "build:server": "node build.js server",
@@ -13,5 +14,9 @@
     "dev:client": "node dev.js client",
     "dev:server": "node dev.js server"
   },
-  "author": "Altie122"
+  "author": "Altie122",
+  "dependencies": {
+    "chalk": "^5.3.0"
+  },
+  "type": "module"
 }
