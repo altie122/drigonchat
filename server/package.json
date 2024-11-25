@@ -5,22 +5,22 @@
   "description": "",
   "scripts": {
     "build": "",
-    "dev": "ts-node ./scripts/dev.ts",
-    "serve": "ts-node ./scripts/start.ts"
+    "dev": "node dev.js",
+    "serve": "node start.js"
   },
   "author": "Altie122",
   "dependencies": {
     "@libsql/client": "^0.14.0",
     "dotenv": "^16.4.5",
     "drizzle-orm": "^0.36.4",
-    "socket.io": "^4.8.1"
+    "socket.io": "^4.8.1",
+    "tsm": "^2.3.0"
   },
   "packageManager": "pnpm@9.9.0",
   "devDependencies": {
     "@tsconfig/node16": "^16.1.3",
     "@types/node": "^22.9.3",
     "drizzle-kit": "^0.28.1",
-    "ts-node": "^10.9.2",
     "tslib": "^2.8.1",
     "tsx": "^4.19.2",
     "typescript": "^5.7.2"

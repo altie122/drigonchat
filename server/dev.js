@@ -16,7 +16,7 @@ const startApp = () => {
   if (appProcess) {
     appProcess.kill();
   }
-  appProcess = spawn("ts-node", ["../src/server.ts"], { stdio: "inherit" });
+  appProcess = spawn("pnpm", ["tsm", "./src/server.ts"], { stdio: "inherit" });
 
   appProcess.on("exit", (code) => {
     if (code !== 0) {
